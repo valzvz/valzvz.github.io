@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header_wrap">
+                <picture>
+                    <source srcset="img/logo2.svg" media="(max-width: 320px)">
+                    <source srcset="img/logo.svg" media="(max-width: 1024px)">
+                    <img src="img/logo.svg">
+                </picture>
+                <div class="header_menu">
+                    <a href="#popup1" class="head_link_1"> Регистрация</a>
+                    <a href="#popup2" class="head_link_2"> <span> Вход </span> </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="menu_hr">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header_wrap">
+            <div class="style_data">
+                Июль, 2022
+            </div>
+            <a class="button" href="#">
+                <img src="img/+.svg" alt="+">
+                Добавить скриншот
+            </a>
+            <a class="button2" href="#">
+                <img src="img/+_+.svg" alt="+">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <a href="#"> <img src="img/img.svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (1).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (2).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (3).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (4).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (5).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (6).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (7).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (8).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (9).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (10).svg" class="card_img"> </a>
+            <a href="#"><img src="img/img (11).svg" class="card_img"> </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header_wrap">
+            <a class="button1" href="#">
+                <img src="img/arrow.svg">
+                Показать ещё
+            </a>
+        </div>
+        <div class="footer_hr">
+            <hr>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="header_wrap">
+                <div class="footer">
+                    <a>info@gmail.ru </a>
+                </div>
+                <div class="footer">
+                    Информация о разработчике
+                </div>
+            </div>
+    </footer>
+
+    <div id="popup1" class="modal"> 
+        <div class="modal_main"> 
+            <div class="modal_title"> 
+                <a_1>Регистрация</a_1> 
+                <a href="#popup2" class="autorization">Авторизация</a> 
+            </div> 
+ 
+            <button class="modal_close"> 
+                <img src="img/close.svg"> 
+            </button> 
+ 
+            <div class="modal_container"> 
+                 
+                <div class="name__reg"> 
+                    <input type="text" id="your_name" class="name_reg" required> 
+                    <label for="your_name">Ваше имя</label> 
+                </div> 
+                     
+                <div class="email__reg"> 
+                    <input type="email" id="your_email" class="email_reg" required> 
+                    <label for="your_email">Email</label> 
+                </div> 
+ 
+                <div class="number__reg"> 
+                    <input type="text" id="your_number" class="number_reg" required>  
+                    <label for="your_number">Мобильный телефон</label> 
+                </div> 
+ 
+                <div class="password__reg"> 
+                    <input type="password" id="your_password" class="password_reg" required> 
+                    <label for="your_password">Пароль</label> 
+                </div> 
+ 
+                <div class="repeat__password__reg"> 
+                    <input type="password" id="repeat_password" class="repeat_password_reg" required> 
+                    <label for="repeat_password">Повторите пароль</label> 
+                </div> 
+            </div> 
+ 
+            <div class="checkbox"> 
+                <label> 
+                    <input type="checkbox" class="real_checkbox"> 
+                    <span class="custom_checkbox"></span> 
+                    Согласен на обработку <span class="info_colortext">персональных данных</span> 
+                </label> 
+            </div> 
+ 
+            <button class="butt_reg"> 
+                Зарегистрироваться 
+            </button> 
+ 
+            <div class="info_reg"> 
+                <a_1><img src="img/info.svg"></a_1> 
+                <a_2>Все поля обязательны для заполнения</a_2> 
+            </div> 
+ 
+        </div> 
+    </div> 
+ 
+    <div id="popup2" class="fodal"> 
+        <div class="fodal_main"> 
+            <div class="fodal_title"> 
+                <a href="#popup1" class="registration">Регистрация</a> 
+                <a_2>Авторизация</a_2> 
+            </div> 
+ 
+            <button class="fodal_close"> 
+                <img src="img/close.svg"> 
+            </button> 
+ 
+            <div class="fodal_container"> 
+ 
+                <div class="email__log"> 
+                    <input type="email" id="your_email" class="email_log" required> 
+                    <label for="your_email">Email</label> 
+                </div> 
+ 
+                <div class="password__log"> 
+                    <input type="password" id="your_password" class="password_log" required> 
+                    <label for="your_password">Пароль</label> 
+                </div> 
+                 
+            </div> 
+ 
+            <button class="butt_log"> 
+                Войти 
+            </button> 
+ 
+            <div class="info_log"> 
+                <a_1><img src="img/info.svg"></a_1> 
+                <a_2>Все поля обязательны для заполнения</a_2> 
+            </div> 
+ 
+        </div> 
+    </div>
+</body>
+
+
+</html>
